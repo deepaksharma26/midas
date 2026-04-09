@@ -3,20 +3,7 @@ import { ImageLinks } from "../static/constants/Image";
 
 const Contact = () => {
   return (
-   <main class="main">
- 
-        <div class="page-title dark-background" data-aos="fade">
-            <div class="container position-relative">
-                <h1>Our Products</h1>
-                <p>Premium quality glitter, sequins, and metallised products for global markets</p>
-                <nav class="breadcrumbs">
-                    <ol>
-                        <li><a href="index.html">Home</a></li>
-                        <li class="current">Products</li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
+   <main class="main"> 
         <section id="products-overview" class="section light-background">
             <div class="container" data-aos="fade-up">
 

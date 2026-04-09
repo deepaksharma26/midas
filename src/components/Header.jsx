@@ -17,7 +17,7 @@ const Header = () => {
             </i>
               <i className="bi bi-geo-alt d-flex align-items-center ms-4">
               <Phone style={{ marginRight: '8px', color: '#f5f6f7' }} />
-              <a href="tel:+15558921567">+1 (555) 892-1567</a>
+              <a href="tel:+91 999 XXXXXX">+91 999 XXXXXXX</a>
             </i> 
           </div>
           <div className="social-links d-none d-md-flex align-items-center">
