@@ -1,0 +1,21 @@
+export const ImageLinks = {
+  logo: require('../assets/img/logo.png'),
+  sme: require('../../assets/img/sme.jpg'),
+  smebest: require('../../assets/img/13133149_984430948343938_7711929380306170681_n.jpg'),
+  award: require('../../assets/img/skoch-merit.jpg'),
+  backgroundGold: require('../../assets/img/BG-GOLD-768x512.jpg'), 
+  michaels: require('../../assets/img/clients/michaels-logo.png'),
+  wallmart: require('../../assets/img/clients/wallmart-logo.png'),
+  roff: require('../../assets/img/clients/roff.png'),
+  horizon: require('../../assets/img/clients/horizon-logo.png'),
+  hobbylobby: require('../../assets/img/clients/Hobby-Lobby-Logo.png'),
+  bgsection: require('../../assets/img/BG-SCTION.jpeg'),
+  nails : require('../../assets/img/Glitter-nail-art-op-300x250-1.jpg'),
+  nailArt: require('../../assets/img/Rhombus-Shape-For-Nail-Polish-op-300x250-1.jpg'),
+  lipArt: require('../../assets/img/glitter-lips-op-300x250-1.jpg'),
+  bodyArt: require('../../assets/img/Untitled-4.png'),
+  biodegradable: require('../../assets/img/slide5.jpg'),
+  glitterPowder: require('../../assets/img/Glitter-Powder-for-Tile-Grouting-thumb.jpg'),
+  sequins: require('../../assets/img/slide7-1024x546.jpg'),
+
+};  

@@ -1,0 +1,77 @@
+.hero-section {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.hero-content {
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.hero-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-item h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #d4af37;
+  margin-bottom: 10px;
+}
+
+.stat-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.hero-badges {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.badge-item {
+  text-align: center;
+}
+
+.badge-circle {
+  width: 80px;
+  height: 80px;
+  background-color: #d4af37;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.badge-item img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.badge-item p {
+  font-size: 1rem;
+  color: #555;
+}

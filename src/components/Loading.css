@@ -1,0 +1,57 @@
+/* Center the loading image on the page */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa; /* Light background */
+}
+
+/* Add rolling animation to the loading image */
+@keyframes roll {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add bounce and flip animation to the loading image */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.loading-image {
+  width: 100%;
+  height: auto;
+  max-width: 500px; /* Optional: Limit maximum size */
+  animation: bounce 2s infinite, flip 3s infinite;
+  border-radius: 5%; /* Make it circular */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.loading-image:hover {
+  transform: scale(1.1) rotate(15deg); /* Slight zoom and tilt on hover */
+}
