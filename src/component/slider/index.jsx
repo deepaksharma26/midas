@@ -34,7 +34,7 @@ const ImageSlider = () => {
               <p>Pioneers in metallic yarn since 1978 and first to introduce Glitter Powder in India in 1980 with
                 Japanese technology. Serving major global retailers including Walmart, Michaels, and Hobby Lobby.</p>
               <div className="hero-buttons">
-                <a href="/products" className="btn-primary">Explore Products</a>
+                <a href="/Products" className="btn-primary">Explore Products</a>
                 <a href="/contact" className="btn-secondary">Request a Quote</a>
               </div>
               <div className="trust-badges">
