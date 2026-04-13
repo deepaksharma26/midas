@@ -6,7 +6,7 @@ const Footer = () => (
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="/" class="logo d-flex align-items-center">
             <img src={logo} alt="Midas Glitter"/>
           </a>
           <p>Anron Metalisers Pvt. Ltd. - Premium manufacturers of glitter powder, sequins, biodegradable glitter, and
@@ -31,11 +31,11 @@ const Footer = () => (
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Products</h4>
           <ul>
-            <li><a href="products.html#glitter">Glitter Powder</a></li>
-            <li><a href="products.html#biodegradable">Biodegradable Glitter</a></li>
-            <li><a href="products.html#glue">Glitter Glue</a></li>
-            <li><a href="products.html#films">Metallised Films</a></li>
-            <li><a href="products.html#sequins">Sequins & Confetti</a></li>
+            <li><a href="/products#glitter">Glitter Powder</a></li>
+            <li><a href="/products#biodegradable">Biodegradable Glitter</a></li>
+            <li><a href="/products#glue">Glitter Glue</a></li>
+            <li><a href="/products#films">Metallised Films</a></li>
+            <li><a href="/products#sequins">Sequins & Confetti</a></li>
           </ul>
         </div>
 

@@ -1,0 +1,95 @@
+/* Home02 Page Styles */
+
+.home02 {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.home02-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.home02-header h1 {
+  font-size: 2.5rem;
+  color: #444;
+}
+
+.home02-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.intro-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.intro-content h2 {
+  font-size: 2rem;
+  color: #555;
+}
+
+.intro-content p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.intro-image {
+  flex: 1;
+  text-align: center;
+}
+
+.intro-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.home02-features {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.home02-features h2 {
+  font-size: 2rem;
+  color: #555;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.feature-item {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.feature-item h3 {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.feature-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.home02-footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.home02-footer p {
+  font-size: 0.9rem;
+  color: #888;
+}

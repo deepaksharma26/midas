@@ -48,7 +48,7 @@ const Contact = () => {
                   <p>Get started with your custom glitter order today</p>
                 </div>
 
-                <form action="forms/get-a-quote.php" method="post" class="php-email-form">
+                <form action="#" name="contact-form" method="post" class="php-email-form">
                   <div class="row g-3">
                     <div class="col-md-6">
                       <div class="form-group">
@@ -98,9 +98,9 @@ const Contact = () => {
 
                     <div class="contact-alternative">
                       <span>Or call us directly:</span>
-                      <a href="tel:+15558921567" class="phone-link">
+                      <a href="tel:+91999xxxxxxx" class="phone-link">
                         <i class="bi bi-telephone-fill"></i>
-                        +1 (555) 892-1567
+                        +91 (xxx) xxx-xxxx
                       </a>
                     </div>
                   </div>
